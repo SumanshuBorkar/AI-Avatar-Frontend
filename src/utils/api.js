@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000";
+const API_URL = "https://ai-avatar-backend-yz9l.onrender.com";
 
 export async function createSession() {
   const res = await fetch(`${API_URL}/session/create`, {
