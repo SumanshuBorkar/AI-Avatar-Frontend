@@ -77,6 +77,38 @@ User Input → Frontend → Backend → LiveAvatar API
 ```
 
 ---
+### System Architecture
+
+    ### Sequence Diagram : Session Creation and Text Chat
+
+<p align="center">
+  <img src="https://uml.planttext.com/plantuml/svg/RLGzRzj03Dq5w3yGNZ8PtZqKYPqKTTK0HcIWGz61aHZxKEbEkACS6qN_UtaVagMcWmr-wP7laTAzOxJSjqsUiUA6eBmwfXQsfksC9itmgF1eiSspFEkm-eL7WiLdQpIJhk6XwnfL8IkZ5_0xpm1-l11Mx1C_0Hq4JvoGUZYZTDkUa6_ueIecOir-1zj6ZPdzBeI_gJCLYg5yB48y-UBwjFyDdM2v_3G1Z5OCHgn9P8hoPyPm8uOdM98zansuFLqwIywbQ1WaXKAw54EK47AQhMcQL79pHoff1e-ZAWfLoHxe3Atyc7E0cnUIutDp0ayN9gkn6V9ku31fBuACOiRGltBlz9j5nxQlkBSqLJwK5TgyDrHBlmswc2usQP9Qy5ub2ej1bfADbTc6GNPw-KojiLTunYv940fTGhZpL3LL76F-CZpXfCmQlXmE-vN_A_FijidfOjVmdLvB8wlabLWlXssU9Jt6if5u11Ii3mB7gTPW2UlLkrLCiU7uQAWhDcle7Rd_vSPvMjGYWVFqj642guud1lCsbLKkkLcoQWcmhvLPdLLDnYTa4OIjqaTGixtacJzLZ_SHr-yZtWmgxU0hQdd7MyMdkt2p7Lbdv4mKNm45fF8lzeNdYFVYo2VYBm00" alt="Logo" width="100%"/>
+</p>
+
+### Sequence Diagram :  Voice Interaction
+
+<p align="center">
+  <img src="https://uml.planttext.com/plantuml/svg/pLPDZzem4Br7odyOSLYnQg5t95RBxXPrLLP5iDqJ5nEFm2BOaUr0gwh_lMCxX2IRPAyzGSoRZ_VcZSEziKpR_9Z6aHKsHNXJ8a5ubXOrIwnG4kQfEiTH7D6Zql3Je8wZZ8948Z8cBGnMI3_1N2iAadm0p9GF3UI3LcUAXnVaWZtXYKePZ_S73V12dF2xiB16VKBjOSLH2t1sOaG4Pild4XYENEVJAJnIFqBcAZS5mnV54QRJE7A4O7HNjZo1nrGa1nXybMnR2kBWWpYwW5o0xta2ExGkXNyQ_c4v5se2LkVuzzPh9gWDl13q7p2gbVDdQwkH7UE8OpEaNhHGO09Plas5sR_Ib0v3NzL__RoHHkKwGSeh4gsolP9ORQIKy29llHcV19OXEV9wSSTp0kkzEZlH3HqBkHkFnmCGaek4aJyAkODe93fDpZ1lewhMXNJh3Dc1Ogs2OzbiALA5R507F4tWDDPA-tULOKzWhlIPQLv0JQ5gZVtL5nNZDD9GPvZiHrQDNl6NxKCkjI8J6pWBkuV5ugKFwtAvd25xiuCgOHg3D8aMcPVkqqRE79ylRuAZ0eqcKz9WpItlcRKCb-eNMcxaq5Pht7R5L0ktcBIqKzqfr_WdORAK_OPBjIroE99WR8TjvbewB0kAN7bwJorp4oR2qaFV-YwrcySDV5CfTxw2RMwjal_1ybx3rkxM3Q0L9afpTwbshLf0jAxQU_OhJ94Px2HUxK5bVIrKBaIYHvp2JZsaQjjvAwtTGS2LG-wvUjfNoSTtB6tFSfK6ezaNgReNRFNH3dLiGzEP7wz2cEHb3Mx0VpIiJRystZNzhwOAxiTyFkWOHYvhBudQ-w1b5xmVmkoi2p1jF4BbewlCGzFSSRWd4Fs9-0S0" alt="Logo" width="100%"/>
+</p
+  
+### Class Diagram : 
+
+<p align="center">
+  <img src="https://uml.planttext.com/plantuml/svg/lLRVJzim47wlrF_1ucKmMj1U8uG8fKWLC50RqAPfGcvoW8TZPxRJWIR-zvtpWzZvKV6qbxJoVJdVVVVTNKwqeShaAH-F33CSIBWWuORY8PazKKDMhzf0IgPangdMv8pHHqNJyMWyocZyJ1-1x9mhAGo8P8Vy7Oy8YGjWwQDmKPmIT962rlY63iXL-U_7pzh4H9QRW6YZc7XyFzGpAGJ41fA0hANaG4LZkvGqGN2FPGcnL0EsEybYk989p0LTynx76vQ0NC93GF1nlVw5rzSccYTimAIaJ7tBqHAFZflK4qRBk43rk-0ofZoqLqGAgUq3bSzzKjIiP7XtBo0tIgPCmz56ikIunZnHaN1OOLq68L1GyCx884uRcNaeQ_LYUMTygmyFvVf8c8xBIlkMANcGAgKcOYdi9jJ0NbiYEbQIyqYUIcDawhxzPZLQgx7IMor530Tv0ULxsoS6Napd3E_67DCi86SOGNty3Aykqhijl5dCE0DXcljY1VZo2iDWKhWaLKTBq9aK6fpQ93LQbx-Bf8zRx-AMCoVTF8xHrXAxfQ5otSwwCaJo6KJRnja6dfcvLNp0qdaBWtppHiOf_cbF33ihiD-DBIYePchGsA3RAZKxEsXsLBgUr0aln8CyxccHca45loT4WHvkXEGZq3wkxTMkh8PfAoMGXAWmaQThK1sNbvXdsTKhK1lijuQ4oyNTFBmBet1vVngkvkqsSCmellkB-VSsucn-7jvUHlSbQiXwTxsOTPpFhhz6ys_H_UBCj_Y9kS4FgHmRY7eJeVkIiTHzb7phhqF-Vn1p4yZy9KEnw33BcZXkhbSHEQmkFIpPwRUXxdhRO_vYG0dAIQK3xJLAGnhMkdtjvaljNHyMN0wRYnRPPfPPhqGlcB6xpHbkrUpE5P-GmG9k6_Jx9ClNdEcdOlNj6liSyf6BNgotav3O26VvRlN5CI4oCpQf8PyeFDZWm9vKQrCDBP8B8V_WLyCZd59tlhAEvWHDeNsMuTMPwHkCdt3JSrg4-CGoFHuvdq_JwN6pKGAIOu4wTgSi0Kcfi5zP7kZpT5elmS3Mor0cBE9zKralhVKHu1mqkRAuySWHkeNwmngHCZUWiVZZKMkEr-5vWwrEeuMrKJfprKcbEngTWEqOy8BT6WBcZ1HGpWVTzcEtKLw9kYJ0TMixrA8ztTJPjzVrmK4hfPGf9LMHqWbA6h_I_m40" alt="Logo" width="100%"/>
+</p>
+
+### Component Diagram : 
+
+<p align="center">
+  <img src="https://uml.planttext.com/plantuml/svg/RLGzRzj03Dq5w3yGNZ8PtZqKYPqKTTK0HcIWGz61aHZxKEbEkACS6qN_UtaVagMcWmr-wP7laTAzOxJSjqsUiUA6eBmwfXQsfksC9itmgF1eiSspFEkm-eL7WiLdQpIJhk6XwnfL8IkZ5_0xpm1-l11Mx1C_0Hq4JvoGUZYZTDkUa6_ueIecOir-1zj6ZPdzBeI_gJCLYg5yB48y-UBwjFyDdM2v_3G1Z5OCHgn9P8hoPyPm8uOdM98zansuFLqwIywbQ1WaXKAw54EK47AQhMcQL79pHoff1e-ZAWfLoHxe3Atyc7E0cnUIutDp0ayN9gkn6V9ku31fBuACOiRGltBlz9j5nxQlkBSqLJwK5TgyDrHBlmswc2usQP9Qy5ub2ej1bfADbTc6GNPw-KojiLTunYv940fTGhZpL3LL76F-CZpXfCmQlXmE-vN_A_FijidfOjVmdLvB8wlabLWlXssU9Jt6if5u11Ii3mB7gTPW2UlLkrLCiU7uQAWhDcle7Rd_vSPvMjGYWVFqj642guud1lCsbLKkkLcoQWcmhvLPdLLDnYTa4OIjqaTGixtacJzLZ_SHr-yZtWmgxU0hQdd7MyMdkt2p7Lbdv4mKNm45fF8lzeNdYFVYo2VYBm00" alt="Logo" width="100%"/>
+</p>
+
+ ### Object Diagram 
+
+<p align="center">
+  <img src="https://uml.planttext.com/plantuml/svg/fLJRZjCm47slb7yO-h8I8jcahRPGQPSj1K4hgaNjQYKU7MUQcYPsP3kz2F7ls4wo9Dtb8f6tEJEUSp9dx5kbYTHbddazpNI6CAMQxH7Mg1GJ7DQQQ0GVxk9lI3MyPoIL9FTwNazKI7-w9wR5R4iqpBdfnYdsWIYW5ldkzG2OcWdEJJ4cS0rQbbYX3u9HN8e4Ft0IPowv8PcgiokaGYQCfrtuio1Ty4TRp4g8l2j3MiJ9KEvNhg5F6pLz2vSoi-11gSdbvHPFANB_U3m6cHd3Zkc0PgAqbHsUfHaFIH4Ynv6hDAeva2SeRR-ledJjDHwrZJ_X2HQ4uolOYiE5WeEGkxTL1SlHQCiBKpO81rT-6Fc32ABHP1XEmj2MxCnXqwDKAFreF1oFhiQZq7w_qpLeT0tETLLsTQHzaQZr2L8XaXUmA9M6WoH5OQTS5a4G_8FAOKibSGo_T0wVqTcirvnlX9EgQg1MwuAvtOZ-A4f8ZBZnNszmrAYfA-x53hajmjDY6t-ax8ujcX8gqVYTJEqlrbg6R-pCpgGyi0G5t4j2Tqx9tiLEnuvn9y515Qye9RLBvEg3jGk36SbH4fl7nqskrhp3D2qJrcOYBkumEUWFJ4j6fIYsWkDVsTwPOyRrnvky94LxqYQig9yEsFHh733sFE_SkN4sxfZtFzPSm0epeaqNjMM5ydhkBV7z6tUR9v0JRfQymL_wlhk1tN3GEbLBcfWdG4XxpZqAjj0vQ_0oLbIo61LeqKexEvwaMnEqHPrPDNiS13Vjn0JCOsQe2y6JgedNkpNkc8Vt9m00" alt="Logo" width="100%"/>
+</p>
+
 
 ## Technology Stack
 
@@ -379,81 +411,6 @@ Content-Type: application/json
 ---
 
 ## UML Diagrams
-
-### 1. Sequence Diagram - Session Creation and Text Chat
-
-```plantuml
-@startuml
-title Avatar Session Creation and Text Chat Flow
-
-actor User
-participant "React Frontend" as Frontend
-participant "Express Backend" as Backend
-participant "LiveAvatar API" as LiveAvatar
-participant "LiveKit Server" as LiveKit
-
-== Session Creation ==
-User -> Frontend: Click "Start Conversation"
-Frontend -> Backend: POST /session/create
-activate Backend
-
-Backend -> LiveAvatar: POST /v1/sessions/token\n(mode: FULL, avatar_id, context_id)
-activate LiveAvatar
-LiveAvatar --> Backend: session_id, session_token
-deactivate LiveAvatar
-
-Backend -> LiveAvatar: POST /v1/sessions/start\n(Authorization: Bearer token)
-activate LiveAvatar
-LiveAvatar --> Backend: livekit_url, livekit_client_token
-deactivate LiveAvatar
-
-Backend --> Frontend: {sessionId, sessionToken,\nlivekitUrl, livekitToken}
-deactivate Backend
-
-Frontend -> LiveKit: Connect to Room\n(url, token)
-activate LiveKit
-LiveKit --> Frontend: Connected Event
-Frontend -> Frontend: Subscribe to Video/Audio Tracks
-LiveKit --> Frontend: Video/Audio Stream
-deactivate LiveKit
-
-Frontend -> User: Display Avatar Video
-
-== Text Chat ==
-User -> Frontend: Type message & click Send
-Frontend -> Frontend: Display user message
-Frontend -> LiveKit: sendText(message, topic: 'lk.chat')
-activate LiveKit
-
-LiveKit -> LiveAvatar: Forward text message
-activate LiveAvatar
-LiveAvatar -> LiveAvatar: Process with LLM
-LiveAvatar -> LiveAvatar: Generate speech
-LiveAvatar --> LiveKit: Text transcription +\nAudio/Video stream
-deactivate LiveAvatar
-
-LiveKit --> Frontend: Text Stream Event\n(transcription)
-LiveKit --> Frontend: Audio/Video Track
-deactivate LiveKit
-
-Frontend -> Frontend: Display avatar message
-Frontend -> User: Play avatar response
-
-== Session End ==
-User -> Frontend: Click "End"
-Frontend -> Backend: POST /session/end\n{sessionId}
-activate Backend
-Backend -> LiveAvatar: POST /v1/sessions/stop
-activate LiveAvatar
-LiveAvatar --> Backend: Success
-deactivate LiveAvatar
-Backend --> Frontend: Success
-deactivate Backend
-Frontend -> LiveKit: Disconnect
-Frontend -> User: Show disconnected state
-
-@enduml
-```
 
 ### 2. Sequence Diagram - Voice Interaction
 
